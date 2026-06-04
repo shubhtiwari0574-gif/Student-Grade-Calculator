@@ -16,8 +16,8 @@ if min(marks)<33:
     print("FAIL")
 else :
     print("PASS")
-    print(f"TOTAL Marks of {Name}:",TOTAL)
-    print(f"PERCENTAGE of {Name}:",PERCENTAGE)
+    print(f"TOTAL Marks of {Name}:{TOTAL}")
+    print(f"PERCENTAGE of {Name}:{PERCENTAGE}")
     if PERCENTAGE >= 80:
         print("Grade A")
     elif PERCENTAGE >= 60:
